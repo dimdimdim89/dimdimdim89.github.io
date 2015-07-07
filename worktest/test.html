@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script>
+		</script>
+		<style type="text/css">
+			.sad{
+				position: absolute;
+				background: url('Source/sad.png') no-repeat 200px 0;
+				left:250px;
+				top:50px;
+				width: 835px;
+				height: 510px;
+			}
+			.sad:hover{
+				background: url('Source/happy.png') no-repeat 0 0;	
+			}
+			.pill{
+				position: absolute;
+				height: 35px;
+				width: 100px;
+				top:250px;
+				left:90px;
+			}
+			.marrow{
+				transform: scale(-1, 1);
+				margin-top: 340px;
+				margin-left: 1235px		
+			}
+			.main_back{
+				height: 752px;
+				width: 1280px;
+				background:	url('Source/figures.png') no-repeat 175px 470px,
+							url('Source/roller red.png') no-repeat 160px 460px,
+							url('Source/arrow.png') no-repeat 10px 340px,
+							url('Source/roller white.png') no-repeat 140px 500px,
+				 			url('Source/back.png') no-repeat 0 0;
+			}
+			.inl{
+				display: inline-block;
+			}
+			.day{
+				width: 209px;
+				height: 75px;
+				background: url('Source/day-button.png') no-repeat;
+				margin-left: 320px;
+				margin-top: 225px;
+
+			}
+			.week{ 
+				width: 209px;
+				height: 75px;
+				background: url('Source/week-button.png') no-repeat;
+				margin-left: 15px;
+				margin-top: 225px;
+			}
+			.month{
+				width: 209px;
+				height: 75px;
+				background: url('Source/mounth-button.png') no-repeat;
+				margin-left: 15px;
+				margin-top: 225px;
+			}
+
+			.day:hover{
+				background: url('Source/day-pushed-button.png') no-repeat;	
+			}
+
+			.week:hover{
+				background: url('Source/week-pushed-button.png') no-repeat;	
+			}
+			.month:hover{
+				background: url('Source/mounth-pushed-button.png') no-repeat;	
+			}
+
+			.comm{
+				position: absolute;	
+				font-weight: bold;
+				color:white;
+				font-family: Helvetica, sans-serif;
+			}
+			.txt{
+				font-size: 70px;
+				top:10px;
+				left:100px;
+			}
+			.rr{
+				font-size: 30px;
+				top:40px;
+				left: 400px;
+				font-weight: 900;
+			}
+			.legko{
+				top:120px;	
+				left:100px;	
+			}
+		</style>
+	</head>
+	<body>
+		<div class="main_back">
+			<h1 class="comm txt">Розулип</h1>
+			<h3 class="comm rr">&#174</h3>
+			<h3 class="comm legko">легко на сердце от чистых сосудов.</h3>
+			<img src="Source/arrow.png" class="marrow" />
+			<img src="Source/780px-Pill.svg[1].png" class="pill" />
+			<div class="sad"></div>
+
+			<div class="inl day"></div>
+			<div class="inl week"></div>
+			<div class="inl month"></div>
+		</div>
+	</body>
+</html>
