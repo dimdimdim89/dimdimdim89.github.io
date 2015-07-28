@@ -1,3 +1,8 @@
+
+body{
+	margin: 0;
+	padding: 0;
+}
 .wrapper{
 	/*background: red;*/
 	max-width: 1188px;
@@ -9,7 +14,7 @@
 	text-decoration: none;
 	color: #82887f;
 	text-transform: uppercase;
-	display: inline-block;
+	/*display: inline-block;*/
 	font-size: 12px;
 }
 
@@ -28,19 +33,19 @@
 
 .upsearch a{
 	margin-top: 85px;
+	font-size: 12px;
 }
 
 .upsearch a:nth-child(2){
-	margin-left: 50px;
+	margin-left: 64px;
 }
 
 .upsearch a:nth-child(3){
-	margin-left: 30px;
+	margin-left: 45px;
 }
 
-.f1 {
-	display: inline-block;
-	margin-top: 10px;
+.f1 {	
+	float: left;
 }
 
 .f1 input:first-child {
@@ -63,13 +68,9 @@
 	border: none;
 }
 
-.upsearch {
-	/*text-align: right;*/
-}
 
 .f2 {
 	display: inline-block;
-	/*margin-top: 10px;*/
 }
 
 .f2 form {
@@ -106,7 +107,31 @@
 .rsub2{
 	margin: 3px 0 0px 10px;
 }
+.search{
+	margin-top: 10px;
+	height: 30px;
+	/*background: green;*/
+	vertical-align: bottom;
+	/*text-align: right;
+	display: inline-block;*/
+}
 
-.search a {
-	margin-left: 25px;
+.search > a{
+	display: block;
+	float: left;
+	margin-top: 8px;
+	margin-left: 15px;
+}
+
+.search .addad{
+	float: right;
+	background: #898989;
+	width: 260px;
+	padding: 5px 0 6px 0;
+	text-align: center;
+}
+
+.search .addad a{
+	color: white;
+	font-size: 12px;
 }
