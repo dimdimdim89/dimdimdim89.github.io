@@ -7,6 +7,7 @@ body a{
 .wrapper{
 	/*background: red;*/
 	max-width: 1188px;
+	min-width: 1188px;
 	margin: auto;
 	height: 140px;
 }
