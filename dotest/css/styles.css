@@ -2,7 +2,7 @@
 body a{
 	margin: 0;
 	padding: 0;
-	font-family: "ArialRegular";
+	font-family: "ArialRegular", sans-serif;
 }
 .wrapper{
 	/*background: red;*/
@@ -16,7 +16,6 @@ body a{
 	text-decoration: none;
 	color: #82887f;
 	text-transform: uppercase;
-	/*display: inline-block;*/
 	font-size: 11px;
 }
 
@@ -114,10 +113,6 @@ body a{
 .search{
 	margin-top: 10px;
 	height: 30px;
-	/*background: green;*/
-	vertical-align: bottom;
-	/*text-align: right;
-	display: inline-block;*/
 }
 
 .search > a{
@@ -127,15 +122,26 @@ body a{
 	margin-left: 15px;
 }
 
-.search .addad{
+ .addad{
 	float: right;
 	background: #898989;
 	width: 260px;
-	padding: 5px 0 6px 0;
+	height: 28px;
 	text-align: center;
+	font-size: 18px;
 }
 
-.search .addad a{
+ .addad a{
 	color: white;
 	font-size: 11px;
+	line-height: 30px;
+}
+
+.addad::after{
+	display: inline-block;
+	background: url("../images/plus.jpg") no-repeat;
+	width: 28px;
+	height: 29px;
+	content: '';
+	float: right;
 }
