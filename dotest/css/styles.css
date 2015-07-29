@@ -85,11 +85,12 @@ body a{
 
 .login{
 	display: block;
-	width: 178px;
+	width: 160px;
 	height: 20px;
 	padding: 0;
 	border: none;
 	margin: auto;
+	padding-left: 17px;
 }
 
 .login-input2{
@@ -144,4 +145,24 @@ body a{
 	height: 29px;
 	content: '';
 	float: right;
+}
+
+.man {
+	position: absolute;
+	float: left;
+	width: 13px;
+	height: 16px;
+	background: url("../images/man.png") no-repeat;
+	margin-left: 43px;
+	margin-top: 2px;
+}
+
+.key {
+	position: absolute;
+	float: left;
+	width: 14px;
+	height: 16px;
+	background: url("../images/key.png") no-repeat;
+	margin-left: 43px;
+	margin-top: 2px;
 }
