@@ -171,7 +171,7 @@ body{
 	/*background: red;*/
 	max-width: 1188px;
 	min-width: 1188px;
-	height: 230px;
+	height: 260px;
 	margin-top: 20px;
 }
 
@@ -336,4 +336,76 @@ body{
 
 .slidebox:hover .moreinfo{
 	display: block;
+}
+
+.left {
+	background: url('../images/left.png');
+	width: 40px;
+	height: 30px;
+	float: left;
+	margin-top: 3px;
+}
+
+.right {
+	background: url('../images/right.png');
+	width: 40px;
+	height: 30px;
+	float: right;
+	margin-top: 3px;
+}
+
+.content{
+	margin-top: 70px;
+}
+
+.row {
+	/*background: green;*/
+	width: 92%;
+	height:180px;
+	margin: auto;
+}
+
+.cell{
+	/*background: yellow;*/
+	width: 280px;
+	height: 175px;
+	float: left;
+	line-height: 16px;
+}
+.cell a{
+	display: block;
+	font-size: 13px;
+	text-decoration: none;
+	color: #2e2e2e;
+	margin-left: 50px;
+}
+
+.cell a:nth-child(2){
+	margin-top: 16px;
+}
+
+.cell a:hover{
+	text-decoration: underline;
+}
+
+.listtitle{
+	/*background: black;*/
+	color: #0075dd;
+	height: 24px;
+	width: 70%;
+}
+
+.listlogo{
+	float: left;
+	background: url('../images/title_icon.png') no-repeat;
+	height: 24px;
+	width: 24px;
+	margin-right: 20px;
+}
+
+.center {
+	margin-left: 135px;
+}
+.cellright {
+	float: right;
 }
