@@ -9,7 +9,7 @@ body{
 	max-width: 1188px;
 	min-width: 1188px;
 	margin: auto;
-	height: 140px;
+	/*height: 2221px;*/
 }
 
 .header a{
@@ -355,6 +355,7 @@ body{
 }
 
 .content{
+	/*background: red;*/
 	margin-top: 70px;
 }
 
@@ -408,4 +409,94 @@ body{
 }
 .cellright {
 	float: right;
+}
+
+.footer{
+	background: #d7d7d7;
+	height: 116px;
+	width: 100%;
+    margin-top: 20px;
+}
+
+.footer > div {
+ 	width: 1188px;
+ 	height: 100px;
+ 	margin: auto;
+ 	/*background: green;*/
+}
+
+.footer > div > div {
+ 	float: left;
+ 	margin-top: 15px;
+}
+
+.footer > div .flinks_logo {
+	margin-top: 0px;
+}
+
+.footer .flinks_logo > div:first-child{
+	/*background: red;*/
+	margin-top: 15px;
+}
+
+
+.flinks_logo a{
+	color: #505050;
+	text-decoration: none;
+	font-size: 12px;
+	margin-right: 10px;
+}
+
+.flinks_logo a:hover{
+	text-decoration: underline;
+}
+
+.footer > div .fsubscr{
+	float: right;
+}
+
+.flinks_logo div:nth-child(2){
+	color: #656565;
+	font-size: 10px;
+	margin-top: 12%;
+	line-height: 24px;
+}
+
+.bottomlogo{
+	width: 79px;
+	height: 17px;
+	background: url('../images/bottomlogo.png') no-repeat;
+	float: left;
+	margin-right: 10px;
+}
+
+.footer > div > .fmobile_link{
+	background: url('../images/mobile.png') no-repeat;
+	width: 248px;
+	height: 86px;
+	margin-left: 6%;
+}
+
+.fsubscr{
+	width: 20%;
+}
+
+.fsubscr input{
+	display: block;
+}
+
+.fsubscr input[type="text"]{
+	width: 200px;
+	height: 28px;
+	border: none;
+	color: #505050;
+	padding-left: 10px;
+	padding-right: 30px;
+	float: left;
+}
+
+.fsubscr input[type="image"]{
+	position: absolute;
+	margin-left: 213px;
+	margin-top: 7px;
 }
